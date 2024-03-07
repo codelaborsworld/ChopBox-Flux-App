@@ -98,7 +98,7 @@ class _AppBarSettingWidgetState extends State<AppBarSettingWidget>
 
     if (background != null) {
       return SliverAppBar(
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: Theme.of(context).colorScheme.background,
         leading: leadingWidget,
         expandedHeight: _kBannerHigh,
         floating: true,
@@ -106,17 +106,19 @@ class _AppBarSettingWidgetState extends State<AppBarSettingWidget>
         flexibleSpace: FlexibleSpaceBar(
           centerTitle: true,
           titlePadding: const EdgeInsets.only(bottom: 16),
-          title: Text(
-            S.of(context).settings,
-            style: const TextStyle(
-              fontSize: 18,
-              color: Colors.white,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
+          // title: Text(
+          //   S.of(context).settings,
+          //   style: const TextStyle(
+          //     fontSize: 18,
+          //     color: Colors.white,
+          //     fontWeight: FontWeight.w600,
+          //   ),
+          // ),
           background: FluxImage(
-            imageUrl: background,
-            fit: BoxFit.cover,
+            imageUrl: Theme.of(context).brightness == Brightness.dark
+                ? 'https://www.chopboxonline.com/wp-content/uploads/2024/02/logo-light-medium.png'
+                : 'https://www.chopboxonline.com/wp-content/uploads/2024/02/logo-dark-medium.png',
+            fit: BoxFit.contain,
           ),
         ),
         actions: _renderActions(),

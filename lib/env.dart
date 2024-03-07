@@ -83,8 +83,8 @@ Map<String, dynamic> environment = {
     "ShowAllCoupons": true,
     "ShowExpiredCoupons": true,
     "AlwaysShowTabBar": false,
-    "PrivacyPoliciesPageUrlOrId": "https://www.chopboxonline.com/terms-conditions/",
-    "SupportPageUrl": "https://www.chopboxonline.com/contacts/",
+    "PrivacyPoliciesPageUrlOrId": "https://mstore.io/",
+    "SupportPageUrl": "https://support.inspireui.com/",
     "DownloadPageUrl": "https://mstore.io/#download",
     "SocialConnectUrl": [
       {
@@ -124,7 +124,7 @@ Map<String, dynamic> environment = {
     "OrderNotesWithPrivateNote": true,
     "OrderNotesLinkSupport": false,
     "inAppUpdateForAndroid": {"enable": false, "typeUpdate": "flexible"},
-    "categoryConfig": {"enableLargeCategories": true},
+    "categoryConfig": {"enableLargeCategories": false},
     "pinnedProductTags": [],
     "TimeShowToastMessage": 1500,
     "PrivacyPoliciesPageId": null,
@@ -520,8 +520,7 @@ Map<String, dynamic> environment = {
   },
   "splashScreen": {
     "duration": 2000,
-    "image":
-        "https://trello.com/1/cards/65857a27f8e06303c4e22df1/attachments/65dc8e26521bcbacee4650ab/download/logo-dark.png",
+    "image": "https://i.imgur.com/93JXI0u.png",
     "animationName": "fluxstore",
     "enable": true,
     "paddingRight": 40,
@@ -539,10 +538,10 @@ Map<String, dynamic> environment = {
     }
   ],
   "darkConfig": {
+    "saleColor": "#E15241",
     "MainColor": "ff01cfff",
     "logo":
-        "https://www.chopboxonline.com/wp-content/uploads/2024/02/logo-light-medium.png",
-    "saleColor": "#E15241"
+        "https://www.chopboxonline.com/wp-content/uploads/2024/02/logo-light-medium.png"
   },
   "enableOnBoarding": true,
   "colorOverrideConfig": {
@@ -645,10 +644,10 @@ Map<String, dynamic> environment = {
   ],
   "unsupportedLanguages": ["ku"],
   "lightConfig": {
+    "saleColor": "#E15241",
     "MainColor": "ffff63ba",
     "logo":
-        "https://www.chopboxonline.com/wp-content/uploads/2024/02/logo-dark-medium.png",
-    "saleColor": "#E15241"
+        "https://www.chopboxonline.com/wp-content/uploads/2024/02/logo-dark-medium.png"
   },
   "storeIdentifier": {
     "disable": true,

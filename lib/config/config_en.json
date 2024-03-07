@@ -41,7 +41,7 @@
       "autoPlay": true,
       "items": [
         {
-          "image": "https://i.imgur.com/zEam7fu.png",
+          "image": "https://i.imgur.com/rYcMXSa.png",
           "bannerWithProduct": false,
           "name": "",
           "showSubcategory": false,
@@ -51,7 +51,7 @@
           "products": []
         },
         {
-          "image": "https://i0.wp.com/www.chopboxonline.com/wp-content/uploads/2023/05/2023-2.png?fit=300%2C157&ssl=1",
+          "image": "https://i.imgur.com/1iv71g6.png",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
@@ -60,12 +60,21 @@
           "products": []
         },
         {
-          "image": "https://i0.wp.com/www.chopboxonline.com/wp-content/uploads/2023/05/2023-3.png?fit=300%2C157&ssl=1",
+          "image": "https://i.imgur.com/1T31nWD.png",
           "bannerWithProduct": false,
           "name": "Books / Stationery",
           "showSubcategory": false,
           "video": "",
           "category": "2084",
+          "defaultShowProduct": false,
+          "products": []
+        },
+        {
+          "image": "https://i.imgur.com/w6Q5BZ0.png",
+          "bannerWithProduct": false,
+          "showSubcategory": false,
+          "video": "",
+          "category": "4571",
           "defaultShowProduct": false,
           "products": []
         }
@@ -177,9 +186,10 @@
           "image": "https://i0.wp.com/www.chopboxonline.com/wp-content/uploads/2021/07/categories-quickbuy.png?fit=300%2C300&ssl=1",
           "showDescription": false,
           "originalColor": true,
-          "keepDefaultTitle": false,
+          "keepDefaultTitle": true,
           "onSale": false,
-          "category": "10519",
+          "category": "586",
+          "title": "Quick Buy",
           "isFeatured": false,
           "colors": ["#333333"],
           "productType": false
@@ -269,10 +279,31 @@
       "hideEmptyProductListRating": false
     },
     {
-      "layout": "bannerImage",
-      "design": "default",
+      "parallax": false,
+      "doubleTapToFullScreen": false,
+      "enableBackground": false,
+      "isHorizontal": false,
       "fit": "fill",
+      "marginRight": 0,
+      "isBlur": false,
+      "parallaxImageRatio": 1.2,
+      "showNumber": false,
+      "design": "default",
+      "showBackground": false,
+      "radius": 6,
+      "enableTimeIndicator": false,
+      "intervalTime": 3,
+      "padding": 0,
+      "upHeight": 0,
+      "pageIndicatorType": "line",
+      "isSlider": true,
+      "isSoundOn": false,
+      "enableParallax": false,
+      "autoPlayVideo": true,
       "marginLeft": 10,
+      "layout": "bannerImage",
+      "marginBottom": 10,
+      "autoPlay": true,
       "items": [
         {
           "image": "https://i.imgur.com/Z7RYsqk.png",
@@ -303,45 +334,24 @@
         },
         {
           "image": "https://i.imgur.com/Nbe2Bxj.png",
-          "showSubcategory": false,
           "bannerWithProduct": false,
-          "defaultShowProduct": false,
-          "products": [],
+          "showSubcategory": false,
+          "video": "",
           "category": "-1",
-          "video": ""
+          "defaultShowProduct": false,
+          "products": []
         },
         {
           "image": "https://i.imgur.com/EjhSPpw.png",
-          "showSubcategory": false,
           "bannerWithProduct": false,
-          "defaultShowProduct": false,
-          "products": [],
+          "showSubcategory": false,
+          "video": "",
           "category": "-1",
-          "video": ""
+          "defaultShowProduct": false,
+          "products": []
         }
       ],
-      "marginBottom": 10,
-      "marginRight": 0,
-      "marginTop": 20,
-      "radius": 6,
-      "padding": 0,
-      "enableParallax": false,
-      "parallaxImageRatio": 1.2,
-      "isHorizontal": false,
-      "enableBackground": false,
-      "isSlider": true,
-      "autoPlay": true,
-      "intervalTime": 3,
-      "showNumber": false,
-      "isBlur": false,
-      "showBackground": false,
-      "upHeight": 0,
-      "isSoundOn": false,
-      "enableTimeIndicator": false,
-      "autoPlayVideo": true,
-      "doubleTapToFullScreen": false,
-      "pageIndicatorType": "line",
-      "parallax": false
+      "marginTop": 20
     },
     {
       "showCartIcon": true,
@@ -493,21 +503,64 @@
       "defaultTab": false,
       "icon": "assets/icons/tabs/icon-home.png",
       "label": "Home",
-      "key": "MmgGnrEuoj"
+      "key": "PXkoOiCAqB"
     },
     {
+      "key": "iJFDUalVGE",
       "layout": "category",
-      "parallaxImageRatio": 1.2,
-      "fontFamily": "CupertinoIcons",
-      "fullscreen": false,
-      "pos": 200,
-      "showOriginalColor": false,
-      "parallax": false,
-      "defaultTab": false,
       "icon": "square_grid_2x2",
+      "fontFamily": "CupertinoIcons",
       "label": "Categories ",
+      "pos": 200,
+      "defaultTab": false,
+      "fullscreen": false,
+      "showOriginalColor": false,
       "categoryLayout": "subCategories",
-      "key": "seYEYwXnVG"
+      "categories": [
+        "7551",
+        "10656",
+        "10303",
+        "302",
+        "587",
+        "306",
+        "2084",
+        "444",
+        "7552",
+        "7561",
+        "7553",
+        "7559",
+        "303",
+        "2045",
+        "2095",
+        "10520",
+        "7554",
+        "2096",
+        "7558",
+        "7555",
+        "7560",
+        "307",
+        "9477",
+        "7557",
+        "10068",
+        "309",
+        "7562",
+        "305",
+        "10519",
+        "11496",
+        "10331",
+        "10657",
+        "10517",
+        "586",
+        "7556",
+        "7550",
+        "9478",
+        "301",
+        "2085",
+        "10067",
+        "8802"
+      ],
+      "parallax": false,
+      "parallaxImageRatio": 1.2
     },
     {
       "layout": "search",
@@ -515,7 +568,7 @@
       "pos": 300,
       "defaultTab": false,
       "icon": "assets/icons/tabs/icon-search.png",
-      "key": "CgPANiOvqL"
+      "key": "bgVNWxmLkQ"
     },
     {
       "layout": "cart",
@@ -525,17 +578,10 @@
       "defaultTab": false,
       "icon": "assets/icons/tabs/icon-cart2.png",
       "label": "Cart",
-      "key": "qtDhfGJCEY"
+      "key": "FypQzqqGmi"
     },
     {
-      "key": "jutDpgSTzs",
       "layout": "profile",
-      "icon": "assets/icons/tabs/icon-user.png",
-      "label": "Profile",
-      "pos": 500,
-      "defaultTab": false,
-      "fullscreen": false,
-      "showOriginalColor": false,
       "settings": [
         "wishlist",
         "notifications",
@@ -545,9 +591,17 @@
         "order",
         "rating",
         "privacy",
+        "web-yJUmToZqhl",
         "wallet"
       ],
+      "fullscreen": false,
+      "pos": 500,
+      "showOriginalColor": false,
       "background": "https://i.imgur.com/L1AGYt0.jpeg",
+      "defaultTab": false,
+      "showBackground": true,
+      "icon": "assets/icons/tabs/icon-user.png",
+      "label": "Profile",
       "subGeneralSetting": {
         "about": {
           "enableClose": false,
@@ -560,9 +614,21 @@
         },
         "privacy": {
           "pageId": 361
+        },
+        "web-yJUmToZqhl": {
+          "enableClose": true,
+          "webViewMode": true,
+          "webUrl": "https://www.chopboxonline.com/about-us/",
+          "icon": "info",
+          "enableBackward": true,
+          "title": "About Us",
+          "requiredLogin": false,
+          "iconFontFamily": "CupertinoIcons",
+          "script": "document. getElementById('header').style.display = 'none'; \\n document. getElementsByClassName('site-footer').style.display = 'none'; \\n",
+          "enableForward": true
         }
       },
-      "showBackground": true
+      "key": "rEKwuvIXvZ"
     }
   ],
   "Drawer": {
