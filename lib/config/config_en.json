@@ -279,41 +279,11 @@
       "hideEmptyProductListRating": false
     },
     {
-      "parallax": false,
-      "doubleTapToFullScreen": false,
-      "enableBackground": false,
-      "isHorizontal": false,
-      "fit": "fill",
-      "marginRight": 0,
-      "isBlur": false,
-      "parallaxImageRatio": 1.2,
-      "showNumber": false,
-      "design": "default",
-      "showBackground": false,
-      "radius": 6,
-      "enableTimeIndicator": false,
-      "intervalTime": 3,
-      "padding": 0,
-      "upHeight": 0,
-      "pageIndicatorType": "line",
-      "isSlider": true,
-      "isSoundOn": false,
-      "enableParallax": false,
-      "autoPlayVideo": true,
-      "marginLeft": 10,
       "layout": "bannerImage",
-      "marginBottom": 10,
-      "autoPlay": true,
+      "design": "default",
+      "fit": "fill",
+      "marginLeft": 10,
       "items": [
-        {
-          "image": "https://i.imgur.com/Z7RYsqk.png",
-          "coupon": "WELCOMECB",
-          "bannerWithProduct": false,
-          "showSubcategory": false,
-          "video": "",
-          "defaultShowProduct": false,
-          "products": []
-        },
         {
           "image": "https://i.imgur.com/TbIt9m4.png",
           "bannerWithProduct": false,
@@ -321,7 +291,8 @@
           "video": "",
           "category": "-1",
           "defaultShowProduct": false,
-          "products": []
+          "products": [],
+          "name": ""
         },
         {
           "image": "https://i.imgur.com/aOYmBdu.png",
@@ -351,7 +322,27 @@
           "products": []
         }
       ],
-      "marginTop": 20
+      "marginBottom": 10,
+      "marginTop": 20,
+      "radius": 6,
+      "padding": 0,
+      "enableParallax": false,
+      "parallaxImageRatio": 1.2,
+      "isHorizontal": false,
+      "enableBackground": false,
+      "isSlider": true,
+      "autoPlay": true,
+      "intervalTime": 3,
+      "showNumber": false,
+      "isBlur": false,
+      "showBackground": false,
+      "upHeight": 0,
+      "isSoundOn": false,
+      "enableTimeIndicator": false,
+      "autoPlayVideo": true,
+      "doubleTapToFullScreen": false,
+      "pageIndicatorType": "line",
+      "parallax": false
     },
     {
       "showCartIcon": true,
@@ -388,10 +379,15 @@
       "backgroundRadius": 10,
       "isSnapping": false,
       "showCartButton": false,
-      "name": "Dairy",
+      "name": "Birthday",
       "cartIconRadius": 9,
-      "category": "303",
-      "hideEmptyProductListRating": false
+      "category": "587",
+      "hideEmptyProductListRating": false,
+      "useCircularRadius": true,
+      "useSort": false,
+      "showCategory": false,
+      "enableAutoSliding": false,
+      "productType": false
     },
     {
       "showCartIcon": true,
@@ -503,19 +499,19 @@
       "defaultTab": false,
       "icon": "assets/icons/tabs/icon-home.png",
       "label": "Home",
-      "key": "PXkoOiCAqB"
+      "key": "WdRumyZGto"
     },
     {
-      "key": "iJFDUalVGE",
       "layout": "category",
-      "icon": "square_grid_2x2",
+      "parallaxImageRatio": 1.2,
       "fontFamily": "CupertinoIcons",
-      "label": "Categories ",
-      "pos": 200,
-      "defaultTab": false,
       "fullscreen": false,
+      "pos": 200,
       "showOriginalColor": false,
-      "categoryLayout": "subCategories",
+      "parallax": false,
+      "defaultTab": false,
+      "icon": "square_grid_2x2",
+      "label": "Categories ",
       "categories": [
         "7551",
         "10656",
@@ -559,8 +555,8 @@
         "10067",
         "8802"
       ],
-      "parallax": false,
-      "parallaxImageRatio": 1.2
+      "categoryLayout": "subCategories",
+      "key": "ymPpKzbIdT"
     },
     {
       "layout": "search",
@@ -568,7 +564,7 @@
       "pos": 300,
       "defaultTab": false,
       "icon": "assets/icons/tabs/icon-search.png",
-      "key": "bgVNWxmLkQ"
+      "key": "sGeuHKEhff"
     },
     {
       "layout": "cart",
@@ -578,7 +574,7 @@
       "defaultTab": false,
       "icon": "assets/icons/tabs/icon-cart2.png",
       "label": "Cart",
-      "key": "FypQzqqGmi"
+      "key": "ornrtrRpeS"
     },
     {
       "layout": "profile",
@@ -628,7 +624,7 @@
           "enableForward": true
         }
       },
-      "key": "rEKwuvIXvZ"
+      "key": "JWtsiEDZXq"
     }
   ],
   "Drawer": {

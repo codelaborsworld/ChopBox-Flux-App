@@ -520,7 +520,8 @@ Map<String, dynamic> environment = {
   },
   "splashScreen": {
     "duration": 2000,
-    "image": "https://i.imgur.com/93JXI0u.png",
+    "image":
+        "https://trello.com/1/cards/65857a27f8e06303c4e22df1/attachments/65f891737dcbb8916355ef35/download/logo.png",
     "animationName": "fluxstore",
     "enable": true,
     "paddingRight": 40,
